@@ -45,3 +45,12 @@ app.*.map.json
 
 # Accept only the 'lib' directory
 !lib/
+
+# Exclude generated Android, iOS, Linux, macOS directories
+/android/
+/ios/
+/linux/
+/macos/
+/test/
+/web/
+/windows/
